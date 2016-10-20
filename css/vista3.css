@@ -98,7 +98,8 @@
 .nomargin{
 	margin: 0%;
 	padding-bottom: 7%;
-	color: black;
+	color: white;
+	font-size: 1em;
 }
 .margin{
 	padding-left: 13%;

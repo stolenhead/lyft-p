@@ -72,7 +72,9 @@
 	text-align: center;
 	font-family: "Freehand";
 	font-size: 2em;
-	padding-left: 39%;
+	margin-left: 39%;
+	margin-top: 6%;
+}
 }
 #direccion{
 	width: 90%;
