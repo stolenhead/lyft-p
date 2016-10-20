@@ -1,0 +1,94 @@
+@font-face{
+	font-family: "Lorano";
+	src:url("../fonts/Lorano-ExtraLight.ttf");
+}
+@font-face{
+	font-family: "Freehand";
+	src:url("../fonts/Freehand.ttf");
+}
+@font-face{
+	font-family: "Duster";
+	src:url("../fonts/Duster Regular.ttf");
+}
+@font-face{
+	font-family: "tombow";
+	src:url("../fonts/tombow.ttf");
+}
+.map{
+	width: 100vw;
+	height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.fondo{
+	color: black;
+}
+.bot{
+	background-color: transparent;
+	
+	height: 90px;
+	font-size: 3em;
+	text-align: center;
+	position:absolute;
+	bottom: 0%;
+	border: 2px solid white;
+	color: white !important;
+	font-family: "Freehand";
+}
+.bot:hover{
+	background-color: black !important;
+	opacity: 0.7!important;
+	border:2px solid white !important;
+}
+.z-index{
+	z-index: 100;
+	position: absolute;
+}
+.profile{
+  height: 3em;
+  width: 3em;
+}
+.gift{
+ height: 3em;
+  width: 3em;
+}
+.section{
+	margin-top: 20%;
+	margin-left: 2%;
+}
+.user{
+	height: 12em;
+	width: 12em;
+	margin-top: 14%;
+	margin-left: 16%;
+}
+.margen{
+	margin-top: 58%;
+}
+.color{
+	color: black;
+}
+.letra{
+	text-align: center;
+	font-family: "Freehand";
+	font-size: 2em;
+	padding-left: 39%;
+}
+#direccion{
+	width: 90%;
+	border-radius: 9px;
+}
+.in{
+position: relative;
+margin-top: 1rem;
+}
+.formu{
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.pos{
+	position: relative;
+}
+
+

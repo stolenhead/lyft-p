@@ -1,0 +1,55 @@
+.fondo{
+	background-image: url("../imagenes/vista1.jpg");
+	background-size: cover;
+	background-position-x : 30%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.letra1{
+	padding-top: 20%;
+}
+.letra{
+	text-align: center;
+	font-family: "Freehand";
+
+}
+@font-face{
+	font-family: "Freehand";
+	src:url("../fonts/Freehand.ttf");
+}
+@font-face{
+	font-family: "tombow";
+	src:url("../fonts/tombow.ttf");
+}
+@font-face{
+	font-family: "Lorano";
+	src:url("../fonts/Lorano-ExtraLight.ttf");
+}
+.boton{
+	position: absolute;
+	bottom: 2%;
+	
+}
+.bot{
+	background-color: transparent ;
+	height: 70px;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	font-family: "Freehand";
+}
+.bot:hover{
+    background-color: white!important;
+	opacity: 0.7!important;
+	border:2px solid white !important;
+	color:black !important;
+}
+.tamaño{
+	font-size: 5em;
+	padding-top: 9%;
+}
+.tamaño2{
+	font-size: 1.2em;
+}
