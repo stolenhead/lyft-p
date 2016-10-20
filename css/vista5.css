@@ -21,11 +21,10 @@
 	background-repeat: no-repeat;
 	height: 100vh;
 }
-#put{
-	width: 70%;
-	height: 200px;
+.put{
+	width: 60%;
 	margin-top: 11%;
-	margin-left: 15%;
+	margin-left: 17%;
 }
 .bot{
 	background-color: transparent;
@@ -50,7 +49,7 @@
  	color:white;
  }
  .tamaño{
- 	padding-left: 27%;
+ 	padding-left: 15%;
  	font-family: "Freehand";
  	font-size: 3em;
  	margin-top: 8% !important;
@@ -61,7 +60,6 @@
 	text-align: center;
 	border: 2px solid black;
 	color: white !important;
-	margin-left: 10%;
 	font-family: "Lorano";
 	margin-top: 5%
 }
@@ -73,7 +71,6 @@
 #nombrePerfil{
 	border: 2px solid white;
 	margin-top: 5%;
-	margin-left: 8%;
 	font-family: "Lorano";
 	height: 35px;
 }

@@ -25,12 +25,12 @@
 }
 .bot{
 	background-color: transparent;
-	
-	height: 90px;
-	font-size: 3em;
-	text-align: center;
+	width: 70%;
+	height: 40px;
+	font-size: 2em;
+    margin-left: 14%;
 	position:absolute;
-	bottom: 0%;
+	bottom: 2%;
 	border: 2px solid white;
 	color: white !important;
 	font-family: "Freehand";

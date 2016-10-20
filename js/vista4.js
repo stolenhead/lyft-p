@@ -44,7 +44,7 @@ $(document).ready(function() {
        $("form").append(buble);
        resultado = false;
 	}
-	  window.localStorage.setItem("mail",longi3);
+	 window.localStorage.setItem("mail",longi3);
 	var email=  localStorage.getItem("mail");
 	window.localStorage.setItem("nombre",longi);
 	var name=  localStorage.getItem("nombre");

@@ -18,11 +18,13 @@
       <h1 class=" tamaño col-xs-11">Edit Profile</h1>
     </div>
     </header>
-  <div>
-  	<div class="put" ><img  id="put" ></div>
+  	
   <form>
-  	<input accept="image/*"  type="file" capture id="imagen" class="btn btn-primary dropdown-toggle boton col-xs-10" " />
+    <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput" class="take-picture btn btn-primary dropdown-toggle boton col-xs-12">
+  	<!-- <input accept="image/*"  type="file" capture id="imagen" class="btn btn-primary dropdown-toggle boton col-xs-10" id="inputFile" /> -->
+    <img class="put" id= "inputFile" src="http://placehold.it/100x100" >
   </form>
+  <input capture id="imagen" class="btn btn-primary dropdown-toggle boton col-xs-5" placeholder="SAVE" />
   </div>
   <p class="col-xs-10 " id="nombrePerfil"></p>
  <script type="text/javascript" src="../js/jquery.min.js"></script>

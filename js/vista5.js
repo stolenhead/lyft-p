@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$("#siguiente").click(function(evento){
-    $("#imagen").change(function(){
+    $("#inputFile").change(function(){
     readURL(this);
     });
    }); 
@@ -16,9 +16,15 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
+$("#cameraInput").change(function (event) {
+      if(event.target.files.length == 1 && event.target.files[0].type.indexOf("image/") == 0) {
+       $("#inputFile").attr("src", URL.createObjectURL(event.target.files[0]));
+   }  
+       // readURL(this);
+});
 function ponerNombre(){
 	var ponerNom= $("#nombrePerfil");
-	ponerNom.html(localStorage.getItem("nombre"));
+	$(ponerNom).html(localStorage.getItem("nombre"));
 }
 var imagenValidada=$("#imagen").val();
 window.localStorage.setItem("image",imagenValidada);
